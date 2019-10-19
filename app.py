@@ -8,6 +8,8 @@ app = Flask(__name__)
 def index():
 	return "Hello World"
 
+def tushar():
+    print("lala darling")
 
 def pallinndrome_using_pallindrome(s):
     if len(s)>1:
