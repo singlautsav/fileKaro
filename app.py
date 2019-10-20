@@ -7,9 +7,9 @@ app = Flask(__name__)
 @app.route('/')
 def index():
 	return "Hello World"
-
-def tushar():
-    print("lala darling")
+@app.route('/basu')
+def basu():
+    return "Basu is smart"
 
 def pallinndrome_using_pallindrome(s):
     if len(s)>1:
